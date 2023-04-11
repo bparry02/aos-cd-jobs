@@ -1,6 +1,6 @@
 # els 8.6-921. Version doesn't really matter here as long as repos runnerimage.repo
 # provides repos for the same RHEL version.
-FROM registry-proxy.engineering.redhat.com/rh-osbs/rhel-els@sha256:ae88d68c3ba828bfac144a6561f9300af68fc5d6f332785e10e845cc2a48b2a3
+FROM registry.redhat.io/ubi8/ubi:8.7-1112
 
 USER 0
 
